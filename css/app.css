@@ -10,7 +10,7 @@ h3{
 }
 
 h2{
-    color: red
+    color: rgb(255, 108, 92)
 }
 
 p{
@@ -28,6 +28,9 @@ li, ul {
     padding-left: 30px;
 }
 
+.consigli{
+    color: green;
+}
 
 .debug{
     background-color: rgb(65, 65, 65);
