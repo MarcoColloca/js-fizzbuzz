@@ -1,21 +1,5 @@
+/* Reset Rules */
 
-h1{
-    text-align: center;
-    color: blueviolet;
-}
-
-
-h3{
-    color: orange;
-}
-
-h2{
-    color: rgb(255, 108, 92)
-}
-
-p{
-    color: white;
-}
 
 li, ul {
     margin: 0;
@@ -23,12 +7,30 @@ li, ul {
     list-style: none;
 }
 
+
+
+
+/* Objective (will be d-none) */
+.consegna h3{
+    color: orange;
+}
+
+.consegna h2{
+    color: rgb(255, 108, 92)
+}
+
+.consegna p{
+    color: white;
+}
+
+
+
 .consegna{
-    /* display: none; */
+    display: none;
     padding-left: 30px;
 }
 
-.consigli{
+.consegna .consigli{
     color: green;
 }
 
@@ -36,3 +38,38 @@ li, ul {
     background-color: rgb(65, 65, 65);
     
 }
+
+
+/* Fizz Buzz Elements */
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+.box{
+    border: 1px solid white;
+    width: 100px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0)
+}
+
+.box-fizz{
+    background-color: rgb(186, 255, 186);
+}
+
+.box-buzz{
+    background-color: rgb(255, 255, 176);
+}
+
+.box-fizz-buzz{
+    background-color: rgb(255, 103, 103);
+}
+
+.box-number{
+    background-color: rgb(75, 147, 255);
+}
+
