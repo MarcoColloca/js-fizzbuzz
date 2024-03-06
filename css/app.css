@@ -58,7 +58,8 @@ body > *{
 
 h1{
     text-align: center;
-    color: blueviolet;
+    color: rgb(134, 42, 221);
+    font-size: 80px;
 }
 
 .box{
