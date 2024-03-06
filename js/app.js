@@ -19,3 +19,31 @@ console.log('JS Trial')
 ///         ► ELSE IF se la variabile che mostra il resto del numero diviso per 3 è ugale (===) a 0 mostrare un console.log con 'Fizz'
 ///         ► ELSE IF se la variabile che mostra il resto del numero diviso per 5 è ugale (===) a 0 mostrare un console.log con 'Buzz'
 ///         ► ELSE mostrare un console.log con la variabile
+
+
+
+
+
+
+
+
+let n = 100;
+
+for (let i = 0; i < n; i++){
+
+    number = i + 1
+    // console.log(number)
+
+    let restDividedBy3 = number % 3;
+    let restDividedBy5 = number % 5;
+
+    if(restDividedBy3 === 0 && restDividedBy5 === 0){
+        console.log('FizzBuzz')
+    }else if(restDividedBy3 === 0){
+        console.log('Fizz')
+    }else if(restDividedBy5 === 0){
+        console.log('Buzz')
+    }else{
+        console.log (number)
+    }
+}
