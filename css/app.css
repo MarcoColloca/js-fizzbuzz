@@ -62,7 +62,7 @@ h1{
 }
 
 .box{
-    border: 1px solid white;
+    border: 5px solid rgb(65, 65, 65);
     min-width: 100px;
     aspect-ratio: 1/1;
     display: flex;
