@@ -23,7 +23,9 @@ console.log('JS Trial')
 
 
 
+const fizzBuzzBox = document.getElementById("Fizz-buzz")
 
+// const divElement = document.createElement('div')
 
 
 
@@ -38,12 +40,32 @@ for (let i = 0; i < n; i++){
     let restDividedBy5 = number % 5;
 
     if(restDividedBy3 === 0 && restDividedBy5 === 0){
-        console.log('FizzBuzz')
+        console.log('FizzBuzz');
+        const divElement = document.createElement('div')
+        fizzBuzzBox.appendChild (divElement);
+        divElement.classList.add('box-fizz-buzz','box');
+        divElement.innerHTML = 'FizzBuzz';
+
     }else if(restDividedBy3 === 0){
-        console.log('Fizz')
+        console.log('Fizz');
+        const divElement = document.createElement('div')
+        fizzBuzzBox.appendChild (divElement);
+        divElement.classList.add('box-fizz','box');
+        divElement.innerHTML = 'Fizz';
+
     }else if(restDividedBy5 === 0){
-        console.log('Buzz')
+        console.log('Buzz');
+        const divElement = document.createElement('div')
+        fizzBuzzBox.appendChild (divElement);
+        divElement.classList.add('box-buzz','box');
+        divElement.innerHTML = 'Buzz';
+
     }else{
-        console.log (number)
+        console.log (number);
+        const divElement = document.createElement('div')
+        fizzBuzzBox.appendChild (divElement);
+        divElement.classList.add('box-number','box');
+        divElement.innerHTML = number;
     }
+
 }
