@@ -46,6 +46,10 @@ body > *{
     margin: 0 auto;
 }
 
+.title{
+    margin: 50px auto;
+}
+
 #Fizz-buzz{
     display: flex;
     flex-wrap: wrap;
