@@ -1,12 +1,35 @@
 
 h1{
     text-align: center;
+    color: blueviolet;
 }
 
 
+h3{
+    color: orange;
+}
+
+h2{
+    color: red
+}
+
+p{
+    color: white;
+}
+
+li, ul {
+    margin: 0;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.consegna{
+    /* display: none; */
+    padding-left: 30px;
+}
 
 
 .debug{
     background-color: rgb(65, 65, 65);
-    color: blueviolet;
+    
 }
