@@ -36,7 +36,7 @@ for (let i = 0; i < n; i++){
     fizzBuzzBox.appendChild (divElement);
 
     const number = i + 1;
-    console.log(number)
+    
 
     let divClass = 'box-number';
     let divContent = number;
@@ -58,6 +58,8 @@ for (let i = 0; i < n; i++){
         console.log('Buzz');
         divClass = 'box-buzz'
         divContent = 'Buzz';
+    }else{
+        console.log(number)
     }
     
     
